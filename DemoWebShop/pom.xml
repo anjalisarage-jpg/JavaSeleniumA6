@@ -45,7 +45,7 @@
 			<version>7.10.2</version>
 		</dependency>
 	</dependencies>
-	<profiles>
+	<!--<profiles> 
 		<profile>
 			<id>AR</id>
 			<build>
@@ -80,5 +80,19 @@
 				</plugins>
 			</build>
 		</profile>
-	</profiles>
+	</profiles>-->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.5.2</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>End_To_End_Flow.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
