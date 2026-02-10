@@ -21,7 +21,7 @@ public class TC_AddToCart_001_Test extends BaseTest {
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(cpp.getProductAddedToCartMsg().isDisplayed(), true, "Product is not added to cart ||");
 		
-		sa.assertAll();;
+		sa.assertAll();
 	}
 
 }
