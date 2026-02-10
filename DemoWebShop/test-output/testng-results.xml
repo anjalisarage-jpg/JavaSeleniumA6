@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<test> Default test has started]]>
+      <![CDATA[<test> Test has started]]>
     </line>
     <line>
       <![CDATA[[TestCase addToCartMethod has started]]]>
@@ -10,43 +10,89 @@
     <line>
       <![CDATA[[TestCase addToCartMethod has failed]]]>
     </line>
+    <line>
+      <![CDATA[[TestCase removeProductFromCartmethod has started]]]>
+    </line>
+    <line>
+      <![CDATA[Product is removed from cart ||]]>
+    </line>
+    <line>
+      <![CDATA[[TestCase removeProductFromCartmethod has successfully executed]]]>
+    </line>
+    <line>
+      <![CDATA[[TestCase buyProductMethod has started]]]>
+    </line>
+    <line>
+      <![CDATA[[TestCase buyProductMethod has successfully executed]]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-02-09T16:28:17 IST" name="Default suite" finished-at="2026-02-09T16:28:52 IST" duration-ms="34782">
+  <suite started-at="2026-02-10T12:41:02 IST" name="Suite" finished-at="2026-02-10T12:43:29 IST" duration-ms="146952">
     <groups>
     </groups>
-    <test started-at="2026-02-09T16:28:17 IST" name="Default test" finished-at="2026-02-09T16:28:52 IST" duration-ms="34782">
-      <class name="org.testPackage.TC_AddToCart_001_Test">
-        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@47af7f3d]" started-at="2026-02-09T16:28:17 IST" name="browserSetUp" finished-at="2026-02-09T16:28:30 IST" duration-ms="12535" status="PASS">
+    <test started-at="2026-02-10T12:41:02 IST" name="Test" finished-at="2026-02-10T12:43:29 IST" duration-ms="146952">
+      <class name="org.testPackage.TC_RemoveProductFromCart_002_Test">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:org.testPackage.TC_RemoveProductFromCart_002_Test@1fa268de]" started-at="2026-02-10T12:42:00 IST" name="browserSetUp" finished-at="2026-02-10T12:42:24 IST" duration-ms="23651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method is-config="true" signature="login()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@47af7f3d]" started-at="2026-02-09T16:28:30 IST" name="login" finished-at="2026-02-09T16:28:33 IST" duration-ms="2760" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.testPackage.TC_RemoveProductFromCart_002_Test@1fa268de]" started-at="2026-02-10T12:42:24 IST" name="login" finished-at="2026-02-10T12:42:26 IST" duration-ms="2192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="addToCartMethod()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@47af7f3d]" started-at="2026-02-09T16:28:33 IST" name="addToCartMethod" finished-at="2026-02-09T16:28:50 IST" duration-ms="17294" status="FAIL">
+        <test-method signature="removeProductFromCartmethod()[pri:0, instance:org.testPackage.TC_RemoveProductFromCart_002_Test@1fa268de]" started-at="2026-02-10T12:42:26 IST" name="removeProductFromCartmethod" finished-at="2026-02-10T12:42:55 IST" duration-ms="29118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[TestCase removeProductFromCartmethod has started]]]>
+            </line>
+            <line>
+              <![CDATA[Product is removed from cart ||]]>
+            </line>
+            <line>
+              <![CDATA[[TestCase removeProductFromCartmethod has successfully executed]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCartmethod -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.testPackage.TC_RemoveProductFromCart_002_Test@1fa268de]" started-at="2026-02-10T12:42:55 IST" name="logout" finished-at="2026-02-10T12:42:57 IST" duration-ms="1488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:org.testPackage.TC_RemoveProductFromCart_002_Test@1fa268de]" started-at="2026-02-10T12:42:57 IST" name="browserTearDown" finished-at="2026-02-10T12:42:57 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- org.testPackage.TC_RemoveProductFromCart_002_Test -->
+      <class name="org.testPackage.TC_AddToCart_001_Test">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@4567f35d]" started-at="2026-02-10T12:41:02 IST" name="browserSetUp" finished-at="2026-02-10T12:41:38 IST" duration-ms="35803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@4567f35d]" started-at="2026-02-10T12:41:38 IST" name="login" finished-at="2026-02-10T12:41:42 IST" duration-ms="4498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCartMethod()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@4567f35d]" started-at="2026-02-10T12:41:42 IST" name="addToCartMethod" finished-at="2026-02-10T12:41:57 IST" duration-ms="15150" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Smartphone']/../..//input[@value='Add to cart']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"partial link text","selector":"Cell phones"}
   (Session info: chrome=140.0.7339.129)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6caec691745ab36339d309657a1d042a, findElement {value=//a[text()='Smartphone']/../..//input[@value='Add to cart'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\Aarushi\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49735/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6caec691745ab36339d309657a1d042a]]>
+Command: [d0052a5d1efb1c72c01613938ff19513, findElement {value=Cell phones, using=partial link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\Aarushi\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59987/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0052a5d1efb1c72c01613938ff19513]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Smartphone']/../..//input[@value='Add to cart']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Cell phones"}
   (Session info: chrome=140.0.7339.129)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6caec691745ab36339d309657a1d042a, findElement {value=//a[text()='Smartphone']/../..//input[@value='Add to cart'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\Aarushi\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49735/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6caec691745ab36339d309657a1d042a
+Command: [d0052a5d1efb1c72c01613938ff19513, findElement {value=Cell phones, using=partial link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\Aarushi\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59987/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0052a5d1efb1c72c01613938ff19513
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -64,7 +110,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at org.testPackage.TC_AddToCart_001_Test.addToCartMethod(TC_AddToCart_001_Test.java:24)
+at org.testPackage.TC_AddToCart_001_Test.addToCartMethod(TC_AddToCart_001_Test.java:21)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -103,15 +149,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- addToCartMethod -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@47af7f3d]" started-at="2026-02-09T16:28:50 IST" name="logout" finished-at="2026-02-09T16:28:51 IST" duration-ms="1137" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@4567f35d]" started-at="2026-02-10T12:41:58 IST" name="logout" finished-at="2026-02-10T12:42:00 IST" duration-ms="1898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@47af7f3d]" started-at="2026-02-09T16:28:51 IST" name="browserTearDown" finished-at="2026-02-09T16:28:52 IST" duration-ms="753" status="PASS">
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:org.testPackage.TC_AddToCart_001_Test@4567f35d]" started-at="2026-02-10T12:42:00 IST" name="browserTearDown" finished-at="2026-02-10T12:42:00 IST" duration-ms="484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTearDown -->
       </class> <!-- org.testPackage.TC_AddToCart_001_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="org.testPackage.TC_BuyProduct_003_Test">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:org.testPackage.TC_BuyProduct_003_Test@4f6ee6e4]" started-at="2026-02-10T12:42:57 IST" name="browserSetUp" finished-at="2026-02-10T12:43:02 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.testPackage.TC_BuyProduct_003_Test@4f6ee6e4]" started-at="2026-02-10T12:43:02 IST" name="login" finished-at="2026-02-10T12:43:08 IST" duration-ms="6784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="buyProductMethod()[pri:0, instance:org.testPackage.TC_BuyProduct_003_Test@4f6ee6e4]" started-at="2026-02-10T12:43:08 IST" name="buyProductMethod" finished-at="2026-02-10T12:43:27 IST" duration-ms="18264" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[TestCase buyProductMethod has started]]]>
+            </line>
+            <line>
+              <![CDATA[[TestCase buyProductMethod has successfully executed]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buyProductMethod -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.testPackage.TC_BuyProduct_003_Test@4f6ee6e4]" started-at="2026-02-10T12:43:27 IST" name="logout" finished-at="2026-02-10T12:43:28 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:org.testPackage.TC_BuyProduct_003_Test@4f6ee6e4]" started-at="2026-02-10T12:43:28 IST" name="browserTearDown" finished-at="2026-02-10T12:43:29 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- org.testPackage.TC_BuyProduct_003_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
