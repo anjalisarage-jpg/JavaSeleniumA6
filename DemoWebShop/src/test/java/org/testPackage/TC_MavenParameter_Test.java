@@ -22,8 +22,8 @@ public class TC_MavenParameter_Test {
 	
 	String data = System.getProperty("data");
 	driver.findElement(By.name("q")).sendKeys(data,Keys.ENTER);
-	//Thread.sleep(3000);
-	//driver.quit();
+	Thread.sleep(3000);
+	driver.quit();
 	}
 
 }
