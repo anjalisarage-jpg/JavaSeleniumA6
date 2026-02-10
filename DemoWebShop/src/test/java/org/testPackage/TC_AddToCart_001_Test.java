@@ -8,7 +8,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-@Listeners(org.genericLib.MyListener.class)
+//@Listeners(org.genericLib.MyListener.class)
 public class TC_AddToCart_001_Test extends BaseTest {
 	
 	@Test
@@ -27,7 +27,7 @@ public class TC_AddToCart_001_Test extends BaseTest {
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(cpp.getProductAddedToCartMsg().isDisplayed(), true, "Product is not added to cart ||");
 		
-		sa.assertAll();;
+		sa.assertAll();
 	}
 
 }

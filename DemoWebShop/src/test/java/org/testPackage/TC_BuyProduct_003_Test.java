@@ -15,7 +15,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-@Listeners(org.genericLib.MyListener.class)
+//@Listeners(org.genericLib.MyListener.class)
 public class TC_BuyProduct_003_Test extends BaseTest {
 	
 	@Test
