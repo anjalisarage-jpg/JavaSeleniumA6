@@ -19,7 +19,7 @@ public class TC_RemoveProductFromCart_002_Test extends BaseTest {
 	{
 		//(Logic for adding product)
 		BasePage bp = new BasePage(driver);
-		bp.getElectronicsLink().click();
+		//bp.getElectronicsLink().click();
 		
 		ElectronicsPage ep = new ElectronicsPage(driver);
 		ep.getCellPhonesClick().click();

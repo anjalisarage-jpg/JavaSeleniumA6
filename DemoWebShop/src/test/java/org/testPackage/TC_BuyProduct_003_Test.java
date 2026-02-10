@@ -22,7 +22,7 @@ public class TC_BuyProduct_003_Test extends BaseTest {
 	public void buyProductMethod() throws EncryptedDocumentException, IOException
 	{
 		BasePage bp = new BasePage(driver);
-		bp.getElectronicsLink().click();
+		//bp.getElectronicsLink().click();
 		
 		ElectronicsPage ep = new ElectronicsPage(driver);
 		ep.getCellPhonesClick().click();
