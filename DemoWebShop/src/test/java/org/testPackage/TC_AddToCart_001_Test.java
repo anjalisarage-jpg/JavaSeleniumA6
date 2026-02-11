@@ -15,7 +15,7 @@ public class TC_AddToCart_001_Test extends BaseTest {
 	public void addToCartMethod()
 	{
 		BasePage bp = new BasePage(driver);
-		//bp.getElectronicsLink().click();
+		bp.getElectronicsLink().click();
 		
 		ElectronicsPage ep = new ElectronicsPage(driver);
 		ep.getCellPhonesClick().click();
