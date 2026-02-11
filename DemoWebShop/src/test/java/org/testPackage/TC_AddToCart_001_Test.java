@@ -8,14 +8,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-//@Listeners(org.genericLib.MyListener.class)
+@Listeners(org.genericLib.MyListener.class)
 public class TC_AddToCart_001_Test extends BaseTest {
 	
 	@Test
 	public void addToCartMethod()
 	{
 		BasePage bp = new BasePage(driver);
-	//	bp.getElectronicsLink().click();
+		bp.getElectronicsLink().click();
 		
 		ElectronicsPage ep = new ElectronicsPage(driver);
 		ep.getCellPhonesClick().click();
